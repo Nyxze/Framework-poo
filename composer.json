@@ -1,0 +1,19 @@
+{
+    "name": "test/framework-poo",
+    "description": "Framework poo",
+    "autoload": {
+        "psr-4": {
+            "m2i\\framework\\": "framework",
+            "m2i\\app\\":"src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nyxze",
+            "email": "manach.alexy@gmail.com"
+        }
+    ],
+    "require": {
+        "league/commonmark": "^2.2"
+    }
+}
